@@ -1,0 +1,38 @@
+.Navbar
+{
+    display: flex;
+    gap: 5%;
+    /* margin-left: 70%; */
+    /* margin-top: -6%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* padding-left: 70%; */
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+.searchimg{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+
+}
+.searchimg>div>img{
+     width: 100%;
+     border-radius: 12px;
+      height: 250px;
+}
+.name{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    width: 90%;
+    margin: auto;
+}
+.name>div{
+    border: 1px solid teal;
+    border-radius: 12px;
+}

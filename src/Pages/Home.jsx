@@ -32,6 +32,7 @@ const Home = () => {
           return (
             <div key={i}>
               <h3
+                className="p"
                 onClick={() => {
                   localStorage.setItem("xyz", el);
                   navigate("/puppy");
